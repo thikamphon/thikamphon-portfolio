@@ -57,6 +57,14 @@ export const useDataStore = defineStore('data', {
 
 
     ],
+    experience: [
+      {
+        company: 'Innova Interactive Studio',
+        position: '3D Modeler',
+        over: '2021',
+        ranges: 'Aug. 2021 - Dec. 2021',
+        about: "While in college, I chose to intern as a 3D modeler at a company, where I was responsible for creating 3D assets for games while interning.",
+      }],
     educations: [
       {
         school: 'King Mongkut’s University of Technology Thonburi (KMUTT)',
@@ -74,23 +82,14 @@ export const useDataStore = defineStore('data', {
         gpax: '3.30',
         about: 'I studied from middle school to high school in the Department of Liberal Arts and Mathematics. My hobby is basketball, and I compete every year on sports day. I also joined the basketball club during middle school, where I developed teamwork, and leadership.',
       },
-      {
-        school: 'Wat Lao School',
-        major: 'General',
-        granduate: '2006',
-        ranges: '2006-2011',
-        gpax: '',
-        about: "I study in the general curriculum. My hobby is mostly reading books, and during midday breaks, I enjoy playing sports and participating in running competitions on Sports Day. Additionally, I also attend the school's orchestra club.",
-      }
+      // {
+      //   school: 'Wat Lao School',
+      //   major: 'General',
+      //   granduate: '2006',
+      //   ranges: '2006-2011',
+      //   gpax: '',
+      //   about: "I study in the general curriculum. My hobby is mostly reading books, and during midday breaks, I enjoy playing sports and participating in running competitions on Sports Day. Additionally, I also attend the school's orchestra club.",
+      // }
     ]
   })
 })
-
-
-// fetch('/src/assets/projects.json')
-//       .then(response => response.json())
-//       .then(data => {
-//         this.projects = data;
-//       })
-//       .catch(error => console.error('Error fetching projects:', error));
-//   }

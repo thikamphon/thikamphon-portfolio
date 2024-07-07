@@ -26,7 +26,6 @@ import Footer from '@/components/Footer.vue'
         <Skills />
         <Project />
         <Education />
-        
       </div>
       <Footer />
     </div>
