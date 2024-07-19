@@ -73,6 +73,7 @@ export const useDataStore = defineStore('data', {
         ranges: '2018-2022',
         gpax: '3.11',
         about: 'I graduated from the King Mongkut’s University of Technology Thonburi, Faculty of Architect and Design, with a major in Media Technology focusing on Game Development. For four years, I honed my skills in coding specifically for game development. During my third year, I expanded my knowledge to include web development, gaining a broader understanding of the digital landscape.'
+      },
       {
         school: 'Rattanakosinsompoch Bangkhunthian School (RST)',
         major: 'Art and Math Program',
